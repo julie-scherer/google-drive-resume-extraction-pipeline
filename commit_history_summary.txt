@@ -1,0 +1,65 @@
+* Commit: 4141b74d460247707fb237daf2c32e4b4ec704b8
+| Author: Julie Scherer
+| Date: 2023-12-26 16:42:56 -0600
+| Message: built infrastructure for extracting, transforming, and loading resume data for chatgpt to analyze
+| Branch:  (HEAD -> main, origin/main)
+| Stats:
+| 
+|  .gitignore       |    7 +-
+|  Makefile         |   17 +-
+|  README.md        |    2 -
+|  data.json        | 1397 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+|  requirements.txt |    9 +-
+|  src/extract.py   |  135 +++++
+|  src/generate.py  |   20 +-
+|  7 files changed, 1572 insertions(+), 15 deletions(-)
+| 
+* Commit: 4af82a3c3951932f8356f3a76cb447252240136d
+| Author: Julie Scherer
+| Date: 2023-12-24 18:20:23 -0600
+| Message: hide files in output
+| Branch: 
+| Stats:
+| 
+|  .gitignore | 2 +-
+|  1 file changed, 1 insertion(+), 1 deletion(-)
+| 
+* Commit: df0215a08f31976671e2cbf215630ab441e983d5
+| Author: Julie Scherer
+| Date: 2023-12-24 18:19:12 -0600
+| Message: updated generate.py script, removed util and init files
+| Branch: 
+| Stats:
+| 
+|  requirements.txt |  1 +
+|  src/__init__.py  |  0
+|  src/generate.py  | 22 +++++++++++-----------
+|  src/util.py      |  9 ---------
+|  4 files changed, 12 insertions(+), 20 deletions(-)
+| 
+* Commit: eaa741904c2c73f2f17c439c769168d0478d4bb3
+| Author: Julie Scherer
+| Date: 2023-12-24 17:48:40 -0600
+| Message: second commit
+| Branch: 
+| Stats:
+| 
+|  .gitignore       | 143 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+|  Makefile         |  21 ++++++++
+|  README.md        |  82 ++++++++++++++++++++----------
+|  example.env      |   1 +
+|  requirements.txt |   1 +
+|  src/__init__.py  |   0
+|  src/generate.py  |  43 ++++++++++++++++
+|  src/util.py      |   9 ++++
+|  8 files changed, 275 insertions(+), 25 deletions(-)
+| 
+* Commit: 79189b92b06ed5d2669d08cfa18dbf5f2fead326
+  Author: Julie Scherer
+  Date: 2023-12-22 15:49:47 -0600
+  Message: first commit
+  Branch: 
+  Stats:
+  
+   README.md | 42 ++++++++++++++++++++++++++++++++++++++++++
+   1 file changed, 42 insertions(+)
